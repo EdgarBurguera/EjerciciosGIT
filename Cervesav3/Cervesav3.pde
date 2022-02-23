@@ -23,7 +23,7 @@ void setup() {
 
 
 void draw() {
-  background(255,255,40);
+  background(255,25,40);
   for(int i = 0; i< bombolles.length; i++){
     bombolles[i].display();
     bombolles[i].update();
